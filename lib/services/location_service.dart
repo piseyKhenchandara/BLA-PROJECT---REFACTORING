@@ -1,4 +1,4 @@
-import 'package:blabla/data/dummy_data.dart';
+import 'package:bla/data/dummy_data.dart';
 
 import '../model/ride/locations.dart';
 

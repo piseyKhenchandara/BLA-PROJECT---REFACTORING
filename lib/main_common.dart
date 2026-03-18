@@ -1,12 +1,13 @@
 
+import 'package:bla/ui/screens/home/home_screen.dart';
+import 'package:bla/ui/theme/theme.dart';
 import 'package:flutter/material.dart';
-import 'ui/screens/home/home_screen.dart';
-import 'ui/theme/theme.dart';
+import 'package:provider/provider.dart';
+import 'package:provider/single_child_widget.dart';
 
-void main() {
-   runApp(const BlaBlaApp()); 
+void mainCommon(List<SingleChildWidget> providers) {
+  runApp(MultiProvider(providers: providers, child: const BlaBlaApp()));
 }
-
 
 class BlaBlaApp extends StatelessWidget {
   const BlaBlaApp({super.key});

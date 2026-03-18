@@ -1,5 +1,6 @@
-import 'package:blabla/ui/widgets/buttons/bla_button.dart';
-import 'package:blabla/ui/widgets/display/bla_divider.dart';
+
+import 'package:bla/ui/widgets/buttons/bla_button.dart';
+import 'package:bla/ui/widgets/display/bla_divider.dart';
 import 'package:flutter/material.dart';
 
 import '../../../model/ride/locations.dart';
